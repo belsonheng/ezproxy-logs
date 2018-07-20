@@ -6,7 +6,7 @@ ezproxy-20180708.zip
 ...
 ezproxy-20180731.zip
 ```
-This Python script will unzip all the previous month's EZproxy log files from source to directory.
+This Python script will unzip all the previous month's EZproxy log files from source to destination.
 
 To use, simply execute the below command:
 ```
