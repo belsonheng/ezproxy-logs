@@ -3,6 +3,11 @@ import sys, glob, zipfile
 
 year = datetime.today().year
 month = datetime.today().month - 1
+
+if month == 0:
+    year = year - 1
+    month = 12
+
 source = sys.argv[1] # get source e.g. Y:/
 destination = sys.argv[2] # get destination
 
